@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cactus project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!--------title----------->
+   
+    <h1>Guess the number</h1>
+
+    <!------players name------>
+    <div class="p1name">
+      <h2 class="name1title">Player one name</h2>
+      <p class="name1error"></p>
+      <input class="name1in" type="text" placeholder="Enter your name">
+      <button class="name1btn">Select</button>
+    </div>
+
+
+    <div class="p2name">
+      <h2 class="name2title">Player two name</h2>
+      <p class="name2error"></p>
+      <input class="name2in" type="text" placeholder="Enter your name">
+      <button class="name2btn">Select</button>
+    </div>
+
+
+    <!-------welcome------>
+    <div class="welcome">
+      <h2 class="r">Rules:</h2>
+      <h3 class="rules">player one has to enter a number between (1 to 20) and player two has to guess the number within 5 attempts.</h3>
+      <button class="play">Start</button>
+    </div>
+  
+  <!-------hints-------->
+  <div class="hints">
+    <h2 class="show">palyer one</h2>
+    <h3 class="speech"></h3>
+    <h2 class="attempts">Attempts: 5</h2>
+  </div>
+
+    <!---------player 1---------->
+  <div class="player1">
+    <input class="p1input" type="number" placeholder="Enter a number">
+    <button class="p1button">Click</button>
+  </div>
+    <!---------player 2---------->
+    <div class="player2">
+        <input class="p2input" type="number" placeholder="Enter a number">
+        <button class="p2button">Guess</button>
+      </div>
+
+
+</body>
+<script src="js/script.js"></script>
+</html>
